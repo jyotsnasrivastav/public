@@ -350,24 +350,24 @@ function setupDropdownMenu() {
   
   const allPages = [
     { name: "Spend Bill Gates Money", url: "../index.html" },
-    { name: "Spend Steve Jobs Money", url: "../Spend Steve Jobs Money/index.html" },
-    { name: "Spend Mark Zuckerberg Money", url: "../Spend Mark Zuckerberg Money/index.html" },
-    { name: "Spend Ambani Money", url: "../Spend Ambani Money/index.html" },
-    { name: "Spend Anitta's Money", url: "../Spend Anitta's Money/index.html" }
+    { name: "Spend Steve Jobs Money", url: "../Spend-Steve-Jobs-Money/index.html" },
+    { name: "Spend Mark Zuckerberg Money", url: "../Spend-Mark-Zuckerberg-Money/index.html" },
+    { name: "Spend Ambani Money", url: "../Spend-Ambani-Money/index.html" },
+    { name: "Spend Anitta's Money", url: "../Spend-Anittas-Money/index.html" }
   ];
 
   // Helper function to check if current page matches
   function isCurrentPage(url, name) {
     if (name.includes("Anitta")) {
-      return currentPath.includes("Anitta's Money");
+      return currentPath.includes("Spend-Anittas-Money");
     } else if (name.includes("Ambani")) {
-      return currentPath.includes("Ambani Money");
+      return currentPath.includes("Spend-Ambani-Money");
     } else if (name.includes("Bill Gates")) {
       return isRoot || (currentPath.endsWith("/index.html") && !currentPath.includes("/Spend"));
     } else if (name.includes("Steve Jobs")) {
-      return currentPath.includes("Steve Jobs Money");
+      return currentPath.includes("Spend-Steve-Jobs-Money");
     } else if (name.includes("Mark Zuckerberg")) {
-      return currentPath.includes("Mark Zuckerberg Money");
+      return currentPath.includes("Spend-Mark-Zuckerberg-Money");
     }
     return false;
   }
