@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Homepage - Spend Bill Gates Money -->
+    <url>
+        <loc>https://spendbillgatesmoney.online/</loc>
+        <lastmod>2024-11-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://spendbillgatesmoney.online/images/Bill_Gates_portrait_937eb0e3.webp</image:loc>
+            <image:title>Spend Bill Gates Money - Billionaire Simulator Game</image:title>
+            <image:caption>Interactive spending simulator where you can spend $100 billion</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Spend Steve Jobs Money -->
+    <url>
+        <loc>https://spendbillgatesmoney.online/Spend%20Steve%20Jobs%20Money/</loc>
+        <lastmod>2024-11-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://spendbillgatesmoney.online/Spend%20Steve%20Jobs%20Money/images/Steve%20Jobs.png</image:loc>
+            <image:title>Spend Steve Jobs Money - Celebrity Simulator Game</image:title>
+            <image:caption>Interactive spending simulator where you can spend money like Steve Jobs</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Spend Mark Zuckerberg Money -->
+    <url>
+        <loc>https://spendbillgatesmoney.online/SpendZuckerbergMoney</loc>
+        <lastmod>2024-11-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://spendbillgatesmoney.online/SpendZuckerbergMoney/images/Mark%20Zuckerberg.png</image:loc>
+            <image:title>Spend Mark Zuckerberg Money - Celebrity Simulator Game</image:title>
+            <image:caption>Interactive spending simulator where you can spend money like Mark Zuckerberg</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Spend Ambani Money -->
+    <url>
+        <loc>https://spendambanimoney.online</loc>
+        <lastmod>2024-11-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://spendambanimoney.online/attached_assets/generated_images/Mukesh%20Ambani.png</image:loc>
+            <image:title>Spend Ambani Money - Billionaire Simulator Game</image:title>
+            <image:caption>Interactive spending simulator where you can spend money like Mukesh Ambani</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Spend Anitta's Money -->
+    <url>
+        <loc>https://spendanittasmoney.online</loc>
+        <lastmod>2024-11-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://spendanittasmoney.online/attached_assets/generated_images/Anitta.png</image:loc>
+            <image:title>Spend Anitta's Money - Celebrity Simulator Game</image:title>
+            <image:caption>Interactive spending simulator where you can spend $20.95 million like Anitta</image:caption>
+        </image:image>
+    </url>
+    
+</urlset>
+

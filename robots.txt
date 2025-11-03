@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /server.log
+
+# Sitemap
+Sitemap: https://spendbillgatesmoney.online/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+

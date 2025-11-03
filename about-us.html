@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- SEO Meta Tags -->
+        <title>About Us - Spend Bill Gates Money | Billionaire Spending Simulator</title>
+        <meta
+            name="description"
+            content="Learn about Spend Bill Gates Money - an interactive educational billionaire spending simulator game. Experience what it's like to spend $100 billion online."
+        />
+        <meta
+            name="keywords"
+            content="about us, spend bill gates money, billionaire simulator, spending game, educational game"
+        />
+        <meta name="author" content="Spending Simulator" />
+        <meta name="robots" content="index, follow" />
+
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="About Us - Spend Bill Gates Money Simulator" />
+        <meta property="og:description" content="Learn about our interactive billionaire spending simulator game." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://spendbillgatesmoney.online/about-us.html" />
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://spendbillgatesmoney.online/about-us.html" />
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles.css" />
+        
+        <!-- Page Specific Styles -->
+        <style>
+            .page-container {
+                max-width: 900px;
+                margin: 2rem auto;
+                padding: 2rem;
+            }
+            
+            .page-header {
+                text-align: center;
+                margin-bottom: 3rem;
+                padding-bottom: 2rem;
+                border-bottom: 2px solid var(--border);
+            }
+            
+            .page-title {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--foreground);
+                margin-bottom: 1rem;
+            }
+            
+            .page-subtitle {
+                font-size: 1.125rem;
+                color: var(--muted-foreground);
+                line-height: 1.6;
+            }
+            
+            .content-section {
+                margin-bottom: 3rem;
+            }
+            
+            .section-title {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: var(--foreground);
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 1px solid var(--border);
+            }
+            
+            .section-content {
+                line-height: 1.8;
+                color: var(--muted-foreground);
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .section-content p {
+                margin-bottom: 1.25rem;
+            }
+            
+            .section-content strong {
+                color: var(--foreground);
+                font-weight: 600;
+            }
+            
+            .feature-list {
+                list-style: none;
+                padding: 0;
+                margin: 1.5rem 0;
+            }
+            
+            .feature-list li {
+                padding: 0.75rem 0;
+                padding-left: 2rem;
+                position: relative;
+                color: var(--muted-foreground);
+                line-height: 1.6;
+            }
+            
+            .feature-list li:before {
+                content: "✓";
+                position: absolute;
+                left: 0;
+                color: var(--primary);
+                font-weight: bold;
+                font-size: 1.25rem;
+            }
+            
+            .highlight-box {
+                background-color: var(--card);
+                border: 1px solid var(--border);
+                border-left: 4px solid var(--primary);
+                border-radius: 0.5rem;
+                padding: 1.5rem;
+                margin: 2rem 0;
+            }
+            
+            .highlight-box strong {
+                display: block;
+                color: var(--foreground);
+                font-size: 1.125rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .back-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: var(--primary);
+                text-decoration: none;
+                font-weight: 500;
+                margin-top: 2rem;
+                transition: all 0.2s ease;
+            }
+            
+            .back-link:hover {
+                color: var(--primary);
+                text-decoration: underline;
+            }
+            
+            @media (max-width: 768px) {
+                .page-container {
+                    padding: 1rem;
+                    margin: 1rem auto;
+                }
+                
+                .page-title {
+                    font-size: 1.75rem;
+                }
+                
+                .section-title {
+                    font-size: 1.5rem;
+                }
+                
+                .section-content {
+                    font-size: 0.938rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="header">
+            <nav
+                class="nav-container"
+                role="navigation"
+                aria-label="Main navigation"
+            >
+                <div class="header-logo">
+                    <span class="logo-icon">💰</span>
+                    <span class="logo-text">Spend Money</span>
+                </div>
+                <button
+                    class="mobile-menu-toggle"
+                    id="mobileMenuToggle"
+                    aria-label="Toggle mobile menu"
+                    aria-expanded="false"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu-wrapper">
+                    <div class="nav-menu" id="navMenu">
+                        <a href="index.html" class="nav-link">Spend Bill Gates Money</a>
+                        <a href="Spend Steve Jobs Money/index.html" class="nav-link">Spend Steve Jobs Money</a>
+                        <a href="Spend Mark Zuckerberg Money/index.html" class="nav-link">Spend Mark Zuckerberg Money</a>
+                    </div>
+                    <div class="dropdown-wrapper">
+                        <button
+                            class="dropdown-toggle"
+                            id="dropdownToggle"
+                            aria-label="Toggle navigation menu"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                        >
+                            <span class="dropdown-text">More Pages</span>
+                            <span class="dropdown-icon">▼</span>
+                        </button>
+                        <div class="dropdown-menu" id="dropdownMenu" role="menu">
+                            <!-- Dropdown items will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                >
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content" role="main">
+            <div class="page-container">
+                <div class="page-header">
+                    <h1 class="page-title">About Us</h1>
+                    <p class="page-subtitle">
+                        Learn more about Spend Bill Gates Money - the ultimate interactive billionaire spending simulator game
+                    </p>
+                </div>
+
+                <section class="content-section">
+                    <h2 class="section-title">Our Mission</h2>
+                    <div class="section-content">
+                        <p>
+                            <strong>Spend Bill Gates Money</strong> is an innovative educational platform designed to help people understand the true scale of billionaire wealth through interactive simulation. Our mission is to make financial education engaging, accessible, and thought-provoking for users of all ages.
+                        </p>
+                        <p>
+                            We believe that understanding wealth inequality and financial concepts shouldn't be limited to textbooks or dry lectures. By allowing users to experience what it's like to spend $100 billion in a virtual environment, we create a powerful learning tool that bridges the gap between abstract numbers and tangible understanding.
+                        </p>
+                        <div class="highlight-box">
+                            <strong>Our Vision</strong>
+                            To democratize financial education and help millions of people worldwide gain a deeper understanding of wealth, inequality, and financial literacy through interactive, gamified experiences.
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">What We Offer</h2>
+                    <div class="section-content">
+                        <p>
+                            Our platform provides a comprehensive billionaire spending simulator that lets you:
+                        </p>
+                        <ul class="feature-list">
+                            <li><strong>Experience Billionaire Wealth:</strong> Control a $100 billion fortune and make purchasing decisions just like the world's richest individuals.</li>
+                            <li><strong>Explore 45+ Items:</strong> Browse through a diverse catalog including everyday items, luxury goods, real estate, vehicles, and ultimate purchases like NBA teams and cruise ships.</li>
+                            <li><strong>Real-Time Budget Tracking:</strong> Watch your budget update instantly with every purchase, helping you understand the scale of spending.</li>
+                            <li><strong>Interactive Receipt System:</strong> Keep track of all your purchases with a detailed receipt that shows your spending breakdown.</li>
+                            <li><strong>Educational Value:</strong> Learn about financial literacy, wealth inequality, and the true magnitude of billionaire fortunes.</li>
+                            <li><strong>Free to Play:</strong> No downloads, no registration required - just open in your browser and start playing immediately.</li>
+                            <li><strong>Cross-Platform:</strong> Works seamlessly on desktop, tablet, and mobile devices.</li>
+                            <li><strong>Dark Mode:</strong> Customize your experience with light and dark themes for comfortable viewing.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Why We Created This Platform</h2>
+                    <div class="section-content">
+                        <p>
+                            The idea for <strong>Spend Bill Gates Money</strong> was born from a simple observation: most people struggle to conceptualize truly massive amounts of wealth. When we hear "$100 billion," it's just a number without context. Our simulator transforms that abstract figure into an interactive experience that makes the scale tangible.
+                        </p>
+                        <p>
+                            We recognized that traditional financial education often fails to engage people, especially younger audiences. By gamifying the experience of spending money on a massive scale, we create an educational tool that's both entertaining and enlightening. Students, educators, and curious individuals can all benefit from seeing firsthand how difficult it is to spend down such enormous fortunes.
+                        </p>
+                        <p>
+                            Inspired by popular platforms like Neal Fun, we've created our own unique take on the spending simulator genre, featuring an extensive catalog of items, beautiful interface design, and comprehensive tracking features.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Who Can Benefit</h2>
+                    <div class="section-content">
+                        <p>
+                            Our platform is designed for a wide range of users:
+                        </p>
+                        <ul class="feature-list">
+                            <li><strong>Students:</strong> Learn about economics, wealth inequality, and financial concepts in an engaging, interactive way.</li>
+                            <li><strong>Educators:</strong> Use as a teaching tool to illustrate wealth disparities and financial literacy concepts in classrooms.</li>
+                            <li><strong>Financial Enthusiasts:</strong> Explore the psychology of spending and understand wealth management on an unprecedented scale.</li>
+                            <li><strong>Curious Minds:</strong> Anyone interested in understanding what it truly means to have billions of dollars.</li>
+                            <li><strong>Game Enthusiasts:</strong> Enjoy a fun, addictive spending simulation game with educational value.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Our Values</h2>
+                    <div class="section-content">
+                        <p>
+                            At <strong>Spend Bill Gates Money</strong>, we operate based on core principles that guide everything we do:
+                        </p>
+                        <p>
+                            <strong>Education First:</strong> While our platform is entertaining, education remains our primary goal. We strive to make financial concepts accessible and understandable to everyone.
+                        </p>
+                        <p>
+                            <strong>Free Access:</strong> We believe financial education should be free and accessible to all. Our platform requires no payment, registration, or downloads - just open and play.
+                        </p>
+                        <p>
+                            <strong>User Experience:</strong> We're committed to providing a smooth, intuitive, and beautiful user experience across all devices and platforms.
+                        </p>
+                        <p>
+                            <strong>Privacy:</strong> We respect your privacy. Our platform doesn't collect personal information or track your spending habits beyond what's necessary for the game to function.
+                        </p>
+                        <p>
+                            <strong>Continuous Improvement:</strong> We regularly update and improve our platform based on user feedback and educational best practices.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Technical Excellence</h2>
+                    <div class="section-content">
+                        <p>
+                            Our platform is built with modern web technologies to ensure fast, responsive, and reliable performance:
+                        </p>
+                        <ul class="feature-list">
+                            <li><strong>Optimized Performance:</strong> Fast loading times and smooth interactions across all devices.</li>
+                            <li><strong>Responsive Design:</strong> Beautiful experience on desktop, tablet, and mobile devices.</li>
+                            <li><strong>Accessibility:</strong> Built with accessibility in mind, following web standards and best practices.</li>
+                            <li><strong>Browser Compatibility:</strong> Works on all modern web browsers without requiring plugins or downloads.</li>
+                            <li><strong>SEO Optimized:</strong> Designed to be easily discoverable through search engines.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="section-content">
+                        <p>
+                            We'd love to hear from you! Whether you have questions, feedback, suggestions, or just want to say hello, please don't hesitate to reach out. Visit our <a href="contact.html" style="color: var(--primary); text-decoration: none;">Contact Us</a> page to get in touch with our team.
+                        </p>
+                        <p>
+                            Your feedback helps us improve and create better educational experiences for everyone. Thank you for being part of our community!
+                        </p>
+                    </div>
+                </section>
+
+                <a href="index.html" class="back-link">← Back to Home</a>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer" role="contentinfo">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="about-us.html">About Us</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <p class="footer-copyright">
+                    &copy; 2024 Spend Money Simulator. An interactive educational game. 
+                    All trademarks and brand names are property of their respective owners.
+                </p>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
+

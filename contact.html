@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- SEO Meta Tags -->
+        <title>Contact Us - Spend Bill Gates Money | Get in Touch</title>
+        <meta
+            name="description"
+            content="Contact the Spend Bill Gates Money team. Have questions, feedback, or suggestions? We'd love to hear from you!"
+        />
+        <meta
+            name="keywords"
+            content="contact, contact us, support, help, spend bill gates money, feedback"
+        />
+        <meta name="author" content="Spending Simulator" />
+        <meta name="robots" content="index, follow" />
+
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Contact Us - Spend Bill Gates Money" />
+        <meta property="og:description" content="Get in touch with our team. We'd love to hear from you!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://spendbillgatesmoney.online/contact.html" />
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://spendbillgatesmoney.online/contact.html" />
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles.css" />
+        
+        <!-- Page Specific Styles -->
+        <style>
+            .page-container {
+                max-width: 900px;
+                margin: 2rem auto;
+                padding: 2rem;
+            }
+            
+            .page-header {
+                text-align: center;
+                margin-bottom: 3rem;
+                padding-bottom: 2rem;
+                border-bottom: 2px solid var(--border);
+            }
+            
+            .page-title {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--foreground);
+                margin-bottom: 1rem;
+            }
+            
+            .page-subtitle {
+                font-size: 1.125rem;
+                color: var(--muted-foreground);
+                line-height: 1.6;
+            }
+            
+            .content-section {
+                margin-bottom: 3rem;
+            }
+            
+            .section-title {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: var(--foreground);
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 1px solid var(--border);
+            }
+            
+            .section-content {
+                line-height: 1.8;
+                color: var(--muted-foreground);
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .section-content p {
+                margin-bottom: 1.25rem;
+            }
+            
+            .contact-info-box {
+                background-color: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 0.75rem;
+                padding: 2rem;
+                margin: 2rem 0;
+                text-align: center;
+            }
+            
+            .contact-info-box h3 {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: var(--foreground);
+                margin-bottom: 1.5rem;
+            }
+            
+            .contact-item {
+                margin: 1.5rem 0;
+            }
+            
+            .contact-item strong {
+                display: block;
+                color: var(--foreground);
+                font-size: 1.125rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .contact-item a {
+                color: var(--primary);
+                text-decoration: none;
+                font-size: 1.125rem;
+                word-break: break-all;
+                transition: all 0.2s ease;
+            }
+            
+            .contact-item a:hover {
+                text-decoration: underline;
+                color: var(--primary);
+            }
+            
+            .contact-item p {
+                color: var(--muted-foreground);
+                margin: 0.5rem 0 0 0;
+                font-size: 0.938rem;
+            }
+            
+            .contact-form {
+                background-color: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 0.75rem;
+                padding: 2rem;
+                margin: 2rem 0;
+            }
+            
+            .form-group {
+                margin-bottom: 1.5rem;
+            }
+            
+            .form-group label {
+                display: block;
+                color: var(--foreground);
+                font-weight: 500;
+                margin-bottom: 0.5rem;
+                font-size: 0.938rem;
+            }
+            
+            .form-group input,
+            .form-group textarea {
+                width: 100%;
+                padding: 0.75rem;
+                border: 1px solid var(--border);
+                border-radius: 0.5rem;
+                background-color: var(--background);
+                color: var(--foreground);
+                font-family: var(--font-sans);
+                font-size: 1rem;
+                transition: all 0.2s ease;
+            }
+            
+            .form-group input:focus,
+            .form-group textarea:focus {
+                outline: none;
+                border-color: var(--primary);
+                box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+            }
+            
+            .form-group textarea {
+                min-height: 150px;
+                resize: vertical;
+            }
+            
+            .form-submit {
+                background-color: var(--primary);
+                color: var(--primary-foreground);
+                border: 1px solid var(--primary);
+                border-radius: 0.5rem;
+                padding: 0.875rem 2rem;
+                font-size: 1rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                font-family: var(--font-sans);
+            }
+            
+            .form-submit:hover {
+                opacity: 0.9;
+                transform: translateY(-1px);
+            }
+            
+            .faq-section {
+                margin-top: 3rem;
+            }
+            
+            .faq-item {
+                background-color: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 0.5rem;
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            
+            .faq-question {
+                font-weight: 600;
+                color: var(--foreground);
+                font-size: 1.063rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .faq-answer {
+                color: var(--muted-foreground);
+                line-height: 1.6;
+            }
+            
+            .back-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: var(--primary);
+                text-decoration: none;
+                font-weight: 500;
+                margin-top: 2rem;
+                transition: all 0.2s ease;
+            }
+            
+            .back-link:hover {
+                color: var(--primary);
+                text-decoration: underline;
+            }
+            
+            .highlight-box {
+                background-color: var(--card);
+                border: 1px solid var(--border);
+                border-left: 4px solid var(--primary);
+                border-radius: 0.5rem;
+                padding: 1.5rem;
+                margin: 2rem 0;
+            }
+            
+            .highlight-box strong {
+                display: block;
+                color: var(--foreground);
+                font-size: 1.125rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            @media (max-width: 768px) {
+                .page-container {
+                    padding: 1rem;
+                    margin: 1rem auto;
+                }
+                
+                .page-title {
+                    font-size: 1.75rem;
+                }
+                
+                .section-title {
+                    font-size: 1.5rem;
+                }
+                
+                .contact-info-box,
+                .contact-form {
+                    padding: 1.5rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="header">
+            <nav
+                class="nav-container"
+                role="navigation"
+                aria-label="Main navigation"
+            >
+                <div class="header-logo">
+                    <span class="logo-icon">💰</span>
+                    <span class="logo-text">Spend Money</span>
+                </div>
+                <button
+                    class="mobile-menu-toggle"
+                    id="mobileMenuToggle"
+                    aria-label="Toggle mobile menu"
+                    aria-expanded="false"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu-wrapper">
+                    <div class="nav-menu" id="navMenu">
+                        <a href="index.html" class="nav-link">Spend Bill Gates Money</a>
+                        <a href="Spend Steve Jobs Money/index.html" class="nav-link">Spend Steve Jobs Money</a>
+                        <a href="Spend Mark Zuckerberg Money/index.html" class="nav-link">Spend Mark Zuckerberg Money</a>
+                    </div>
+                    <div class="dropdown-wrapper">
+                        <button
+                            class="dropdown-toggle"
+                            id="dropdownToggle"
+                            aria-label="Toggle navigation menu"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                        >
+                            <span class="dropdown-text">More Pages</span>
+                            <span class="dropdown-icon">▼</span>
+                        </button>
+                        <div class="dropdown-menu" id="dropdownMenu" role="menu">
+                            <!-- Dropdown items will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                >
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content" role="main">
+            <div class="page-container">
+                <div class="page-header">
+                    <h1 class="page-title">Contact Us</h1>
+                    <p class="page-subtitle">
+                        We'd love to hear from you! Have questions, feedback, suggestions, or just want to say hello? Get in touch with our team.
+                    </p>
+                </div>
+
+                <section class="content-section">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="section-content">
+                        <p>
+                            At <strong>Spend Bill Gates Money</strong>, we value your feedback, questions, and suggestions. Whether you're a student using our platform for education, an educator incorporating it into your curriculum, or simply someone who enjoys our spending simulator, we want to hear from you.
+                        </p>
+                        <p>
+                            Our team is committed to providing excellent support and continuously improving our platform based on user feedback. We typically respond to inquiries within 24-48 hours during business days.
+                        </p>
+                    </div>
+
+                    <div class="contact-info-box">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="contact-item">
+                            <strong>Email Address</strong>
+                            <a href="mailto:contact@spendbillgatesmoney.online">contact@spendbillgatesmoney.online</a>
+                            <p>Send us an email anytime - we'll get back to you as soon as possible!</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <strong>Website</strong>
+                            <a href="https://spendbillgatesmoney.online" target="_blank" rel="noopener noreferrer">https://spendbillgatesmoney.online</a>
+                            <p>Visit our main website to start playing the spending simulator game.</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <strong>Response Time</strong>
+                            <p style="color: var(--foreground); font-size: 1rem; margin-top: 0.25rem;">We typically respond within 24-48 hours</p>
+                            <p>Monday through Friday (excluding holidays)</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <div class="section-content">
+                        <p>
+                            Use the form below to send us a message. Please provide as much detail as possible so we can assist you effectively.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form action="mailto:contact@spendbillgatesmoney.online" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required placeholder="What is your message about?">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" name="message" required placeholder="Please provide details about your inquiry, feedback, or question..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="form-submit">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="highlight-box">
+                        <strong>Note:</strong>
+                        Your email client will open when you click "Send Message". If you prefer, you can also email us directly at <a href="mailto:contact@spendbillgatesmoney.online" style="color: var(--primary); text-decoration: none;">contact@spendbillgatesmoney.online</a>.
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">What Can You Contact Us About?</h2>
+                    <div class="section-content">
+                        <p>
+                            We're here to help with a variety of topics. Feel free to reach out for:
+                        </p>
+                        <ul class="policy-list" style="list-style: disc; padding-left: 2rem;">
+                            <li><strong>General Inquiries:</strong> Questions about our platform, how it works, or what we offer.</li>
+                            <li><strong>Technical Support:</strong> Issues with website functionality, bugs, or browser compatibility problems.</li>
+                            <li><strong>Feedback & Suggestions:</strong> Ideas for new features, improvements, or items you'd like to see added.</li>
+                            <li><strong>Educational Use:</strong> Questions about using our platform in educational settings or curriculum integration.</li>
+                            <li><strong>Partnership Opportunities:</strong> Collaboration inquiries, partnerships, or media requests.</li>
+                            <li><strong>Privacy Concerns:</strong> Questions about data privacy, your rights, or our privacy practices.</li>
+                            <li><strong>Press & Media:</strong> Media inquiries, interview requests, or press-related questions.</li>
+                            <li><strong>Other:</strong> Any other questions or concerns you may have.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="content-section faq-section">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">How quickly will I receive a response?</div>
+                        <div class="faq-answer">
+                            We typically respond to all inquiries within 24-48 hours during business days (Monday through Friday). We aim to respond to urgent technical issues even faster. Please note that response times may be slightly longer during weekends and holidays.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Can I use this platform for educational purposes?</div>
+                        <div class="faq-answer">
+                            Absolutely! Our platform is designed to be educational and is perfect for use in classrooms, homeschooling, or any educational setting. We encourage educators to use our spending simulator to teach financial literacy, wealth inequality, and economic concepts. Feel free to contact us if you need specific guidance on incorporating our platform into your curriculum.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Do you accept feature requests or suggestions?</div>
+                        <div class="faq-answer">
+                            Yes! We love hearing from our users about features they'd like to see. While we can't guarantee that every suggestion will be implemented, we carefully review all feedback and prioritize improvements based on user needs and our development roadmap.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">I found a bug or technical issue. How do I report it?</div>
+                        <div class="faq-answer">
+                            Please contact us immediately with details about the bug, including your browser type and version, device type, operating system, and steps to reproduce the issue. Screenshots or screen recordings are extremely helpful. We appreciate your help in making our platform better!
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Can I request new items to be added to the spending simulator?</div>
+                        <div class="faq-answer">
+                            We're always looking to expand our catalog of purchasable items! If you have ideas for interesting, educational, or entertaining items that would fit our platform, please share them with us. We consider price ranges, educational value, and user interest when adding new items.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Is my information safe when I contact you?</div>
+                        <div class="faq-answer">
+                            Yes. We take your privacy seriously. Information you provide when contacting us is used solely to respond to your inquiry and is handled according to our <a href="privacy-policy.html" style="color: var(--primary); text-decoration: none;">Privacy Policy</a>. We never sell or share your contact information with third parties.
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2 class="section-title">Stay Connected</h2>
+                    <div class="section-content">
+                        <p>
+                            While we primarily communicate through email, we're always working on new ways to connect with our community. Be sure to bookmark our website and check back regularly for updates, new features, and improvements.
+                        </p>
+                        <div class="highlight-box">
+                            <strong>Thank You!</strong>
+                            We sincerely appreciate every message, suggestion, and piece of feedback we receive. Your input helps us create a better educational experience for everyone. Thank you for being part of the Spend Bill Gates Money community!
+                        </div>
+                    </div>
+                </section>
+
+                <a href="index.html" class="back-link">← Back to Home</a>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer" role="contentinfo">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="about-us.html">About Us</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <p class="footer-copyright">
+                    &copy; 2024 Spend Money Simulator. An interactive educational game. 
+                    All trademarks and brand names are property of their respective owners.
+                </p>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
+

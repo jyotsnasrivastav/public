@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- SEO Meta Tags -->
+        <title>
+            Spend Mark Zuckerberg Money Online - Experience What $115 Billion Can Buy | Free Billionaire Wealth Simulator
+        </title>
+        <meta
+            name="description"
+            content="Spend Mark Zuckerberg Money simulator - Experience what it's like to spend $115 billion like the Facebook/Meta CEO! This interactive spend Mark Zuckerberg money game lets you buy luxury items, real estate, and tech products. Try to spend all of Mark Zuckerberg's money in this free billionaire simulator!"
+        />
+        <meta
+            name="keywords"
+            content="spend mark zuckerberg money, spend mark zuckerberg money game, spend mark zuckerberg money simulator, spend mark zuckerberg, spent mark zuckerberg money, use mark zuckerberg money game, spend all of mark zuckerberg money game, spend all of mark zuckerberg money, billionaire simulator, wealth simulator, meta ceo simulator, money spending simulator"
+        />
+        <meta name="author" content="Spending Simulator" />
+        <meta name="robots" content="index, follow" />
+
+        <!-- Open Graph Meta Tags -->
+        <meta
+            property="og:title"
+            content="Spend Mark Zuckerberg's $115 Billion - Meta CEO Money Simulator"
+        />
+        <meta
+            property="og:description"
+            content="Experience spending Mark Zuckerberg's fortune! Buy dream cars, properties, and tech products in this interactive billionaire simulator. Free to play!"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://spendbillgatesmoney.online/SpendZuckerbergMoney" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+        <link rel="icon" type="image/png" href="../favicon.svg" />
+        <link rel="apple-touch-icon" href="../favicon.svg" />
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://spendbillgatesmoney.online/SpendZuckerbergMoney" />
+        
+        <!-- Theme Color -->
+        <meta name="theme-color" content="#2563eb" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="header">
+            <nav
+                class="nav-container"
+                role="navigation"
+                aria-label="Main navigation"
+            >
+                <div class="header-logo">
+                    <span class="logo-icon">💰</span>
+                    <span class="logo-text">Spend Money</span>
+                </div>
+                <button
+                    class="mobile-menu-toggle"
+                    id="mobileMenuToggle"
+                    aria-label="Toggle mobile menu"
+                    aria-expanded="false"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu-wrapper">
+                    <div class="nav-menu" id="navMenu">
+                        <a href="../index.html" class="nav-link">Spend Bill Gates Money</a>
+                        <a href="../Spend Steve Jobs Money/index.html" class="nav-link">Spend Steve Jobs Money</a>
+                        <a href="index.html" class="nav-link">Spend Mark Zuckerberg Money</a>
+                    </div>
+                    <div class="dropdown-wrapper">
+                        <button
+                            class="dropdown-toggle"
+                            id="dropdownToggle"
+                            aria-label="Toggle navigation menu"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                        >
+                            <span class="dropdown-text">More Pages</span>
+                            <span class="dropdown-icon">▼</span>
+                        </button>
+                        <div class="dropdown-menu" id="dropdownMenu" role="menu">
+                            <!-- Dropdown items will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                >
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content" role="main">
+            <!-- Hero Section -->
+            <section class="hero-section" aria-labelledby="hero-title">
+                <div class="billionaire-avatar">
+                    <img
+                        src="images/Mark Zuckerberg.png"
+                        alt="Mark Zuckerberg - Spend billionaire money simulator game - Experience spending $115.225 billion fortune online"
+                        class="avatar-image"
+                        title="Mark Zuckerberg Money Spending Game"
+                    />
+                </div>
+                <h1 id="hero-title" class="hero-title">
+                    Spend Mark Zuckerberg's Money
+                </h1>
+                <p class="hero-subtitle">Meta CEO | Facebook Founder | Tech Billionaire</p>
+                <div class="budget-display">
+                    <p
+                        class="current-budget"
+                        id="currentBudget"
+                        aria-live="polite"
+                        aria-atomic="true"
+                    >
+                        $115,225,000,000
+                    </p>
+                    <p class="budget-info">
+                        <span id="percentageSpent">0.00</span>% spent
+                    </p>
+                </div>
+            </section>
+
+            <!-- Shopping Grid Section -->
+            <section class="shopping-container">
+                <div
+                    class="items-grid"
+                    id="itemsGrid"
+                    role="list"
+                    aria-label="Available items for purchase"
+                >
+                    <!-- Items will be dynamically generated here -->
+                </div>
+
+                <!-- Receipt Sidebar -->
+                <aside
+                    class="receipt-sidebar"
+                    role="complementary"
+                    aria-labelledby="receipt-title"
+                >
+                    <article class="receipt-card">
+                        <header class="receipt-header">
+                            <h2 id="receipt-title">
+                                <span class="cart-icon">🛒</span>
+                                Your Receipt
+                            </h2>
+                        </header>
+                        <div class="receipt-divider"></div>
+                        <div class="receipt-content" id="receiptContent">
+                            <p class="empty-receipt">
+                                No items purchased yet<br /><small
+                                    >Start shopping!</small
+                                >
+                            </p>
+                        </div>
+                        <div class="receipt-divider"></div>
+                        <footer class="receipt-footer">
+                            <div class="total-row">
+                                <span class="total-label">Total Spent</span>
+                                <span class="total-amount" id="totalSpent"
+                                    >$0</span
+                                >
+                            </div>
+                        </footer>
+                    </article>
+                </aside>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer" role="contentinfo">
+            <div class="footer-content">
+                <h2 class="footer-heading">Spend Mark Zuckerberg Money - Meta CEO Billionaire Simulator Game</h2>
+                <div class="footer-description">
+                    <p>Ever wondered what it would be like to <strong>spend Mark Zuckerberg money</strong>? Welcome to the ultimate interactive billionaire spending simulator where you get to control Mark Zuckerberg's $115 billion fortune! This <strong>spend Mark Zuckerberg money game</strong> offers an immersive experience that helps you understand the scale of extreme wealth. Whether you're looking for a <strong>spend Mark Zuckerberg money simulator</strong> to gain financial perspective or simply want to have fun experiencing virtual financial freedom, this platform delivers an educational and entertaining gaming experience.</p>
+
+                    <p>When you <strong>spend Mark Zuckerberg's</strong> fortune in this simulator, you're not just playing a game—you're gaining valuable insights into financial decision-making. The challenge to <strong>spend all of Mark Zuckerberg money</strong> is more difficult than most players initially expect. Starting with $115 billion may seem like an unlimited budget, but as you begin purchasing items—from tech products to luxury items—you quickly realize how strategic thinking becomes essential. This <strong>use Mark Zuckerberg money game</strong> teaches players about financial priorities, tradeoffs, and the true meaning of wealth.</p>
+
+                    <p>Many people search for ways to <strong>spend Mark Zuckerberg money</strong> online to understand billionaire wealth. Our enhanced <strong>spend Mark Zuckerberg money simulator</strong> features additional functionalities including real-time budget tracking, a comprehensive receipt system, and an extensive catalog of over 42 items to purchase. When you <strong>spent Mark Zuckerberg money</strong> in this game, every transaction is tracked, helping you understand exactly where your virtual billions are going.</p>
+
+                    <p>The goal in this <strong>spend all of Mark Zuckerberg money game</strong> isn't just to spend recklessly—it's to make thoughtful decisions about how to allocate a fortune this massive. Mark Zuckerberg, as the founder of Facebook (now Meta) and one of the world's youngest billionaires, has transformed social media and technology. This <strong>Spend Mark Zuckerberg's</strong> money simulator captures the spirit of technological innovation by encouraging players to think beyond simple consumption toward investments that could impact the world.</p>
+
+                    <p>Whether you want to <strong>spend all of Mark Zuckerberg money</strong> on luxury real estate, cutting-edge technology, or experiences like private jets and yachts, this <strong>spend Mark Zuckerberg money game</strong> provides the platform to explore those fantasies safely. The simulator includes items ranging from everyday purchases to extraordinary luxury goods, each with realistic pricing that reflects actual market values. This helps players understand not just how to <strong>spend Mark Zuckerberg money</strong>, but also the relative value of different types of assets and experiences.</p>
+
+                    <p>If you've ever searched for alternatives to other spending simulators, you'll find that our platform offers similar core mechanics with additional enhancements. The <strong>spend Mark Zuckerberg money simulator</strong> features include dark mode support, responsive design for all devices, and an intuitive interface that makes it easy to start spending immediately. No downloads or registrations required—just open the game and begin your journey to <strong>spend all of Mark Zuckerberg money</strong>.</p>
+
+                    <p>This <strong>use Mark Zuckerberg money game</strong> serves multiple purposes beyond entertainment. Educators use it to teach financial literacy, help students understand wealth inequality, and spark conversations about money management. The challenge to <strong>spend all of Mark Zuckerberg money</strong> reveals surprising truths about the scale of billionaire wealth—even with $115 billion, spending requires careful strategy and decision-making. When you <strong>spent Mark Zuckerberg money</strong> in large amounts, you begin to appreciate the magnitude of such fortunes.</p>
+                </div>
+                <div class="footer-features">
+                    <h3 class="footer-subheading">Why Play the Spend Mark Zuckerberg Money Simulator?</h3>
+                    <p>This <strong>spend Mark Zuckerberg money simulator</strong> encourages financial literacy, sparks creativity, helps you learn to make tradeoffs, and opens conversations about wealth and privilege. Perfect for teenagers and adults alike! Similar to other popular spending games, but with enhanced features that make the experience even more engaging and educational.</p>
+                </div>
+                <div class="footer-features">
+                    <h3 class="footer-subheading">How to Play the Spend Mark Zuckerberg Money Game?</h3>
+                    <p>Using this <strong>use Mark Zuckerberg money game</strong> is simple and intuitive. Your total wealth of $115 billion is displayed at the top. Browse through various items below, each showing its price alongside <strong>Buy</strong> and <strong>Sell</strong> buttons. Click <strong>Buy</strong> to purchase items and watch your budget decrease. Try to <strong>spend all of Mark Zuckerberg money</strong> by making strategic purchases. You can sell items anytime to get money back. The goal? To <strong>spend all of Mark Zuckerberg money game</strong> while learning valuable financial lessons!</p>
+                </div>
+                
+                <!-- Footer Navigation Links -->
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <a href="../about-us.html">About Us</a>
+                    <a href="../privacy-policy.html">Privacy Policy</a>
+                    <a href="../contact.html">Contact</a>
+                </nav>
+                
+                <p class="footer-copyright">
+                    &copy; 2024 Spend Money Simulator. An interactive educational game. 
+                    All trademarks and brand names are property of their respective owners.
+                </p>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
