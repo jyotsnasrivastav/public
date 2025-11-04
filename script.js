@@ -350,8 +350,8 @@ function setupDropdownMenu() {
   // Clear dropdown menu first
   dropdownMenu.innerHTML = '';
 
-  // Populate dropdown with remaining pages (after first 3)
-  allPages.slice(3).forEach(page => {
+  // Populate dropdown with all pages
+  allPages.forEach(page => {
     const link = document.createElement('a');
     link.href = page.url;
     link.className = 'dropdown-link';
@@ -366,7 +366,7 @@ function setupDropdownMenu() {
     dropdownMenu.appendChild(link);
   });
 
-  // Update active state for nav links (first 3 pages)
+  // Update active state for nav links (first 4 pages)
   const navLinks = navMenu.querySelectorAll('.nav-link');
   navLinks.forEach(link => {
     link.classList.remove('active');

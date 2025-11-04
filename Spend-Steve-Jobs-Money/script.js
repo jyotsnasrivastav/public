@@ -341,8 +341,8 @@ function setupDropdownMenu() {
   // Clear dropdown menu first
   dropdownMenu.innerHTML = '';
 
-  // Populate dropdown with remaining pages (after first 3)
-  allPages.slice(3).forEach(page => {
+  // Populate dropdown with all pages
+  allPages.forEach(page => {
     const link = document.createElement('a');
     link.href = page.url;
     link.className = 'dropdown-link';
